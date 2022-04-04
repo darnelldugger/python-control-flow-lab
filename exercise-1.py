@@ -10,3 +10,10 @@
 
 # Hints:  Use the in operator to check if a character is in another string
 #         For example, if some_char in 'abc':
+
+letter = input('Please enter a letter from the alphabet: ')
+
+if(letter in 'A, a, E, e, I, i, O, o, U, u'):
+  print (f'The letter {letter} is a vowel')
+else:
+  print(f'The letter {letter} is a consonant')
