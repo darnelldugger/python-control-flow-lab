@@ -17,3 +17,5 @@ if(letter in 'A, a, E, e, I, i, O, o, U, u'):
   print (f'The letter {letter} is a vowel')
 else:
   print(f'The letter {letter} is a consonant')
+
+  
